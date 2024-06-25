@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+div{
+    transition: 0.5s;
+}
+div:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.bgg{   
+    backdrop-filter: blur(20px);
+    background-image: url(123.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.headd{
+    display: flex;
+    width: 100vw;
+    font-weight: bold;
+    font-size: xx-large;
+    height: 30vh;
+    justify-content: center;
+    color: white;
+    padding-top: 5px;
+
+
+}
+.ps{
+    font-size: xx-small;
+    color: whitesmoke;
+}
+.kartinka{
+    width: 30%;
+    height: 30%;
+}
+.author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    margin-left: 10vw;
+}
+.stext{
+    display: flex;
+    margin: 0;
+    background-color: whitesmoke;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+    padding:5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+.odin{
+    display: flex;
+    flex-direction: row;
+    color: grey;
+}
+.dva{
+    display: flex;
+    flex-direction: row-reverse;
+    color: green;
+}
+.tri{
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+.chetire{
+    display: flex;
+    flex-direction: column-reverse;
+    color: orange;
+}
+.pitya{
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+}
+.shiest{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+.sem{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    color: aqua;
+}
+.vosem{
+    display: flex;
+    flex-flow: row nowrap;
+    color: sandybrown;
+}
+.devyat{
+    display: flex;
+    flex-flow: column-reverse;
+    color: gold;
+}
+.desyat{
+    display: flex;
+
+    color: indianred;
+}
+.odinnat{
+    display: flex;
+    flex-flow: column wrap;
+    color:royalblue;
+}
+.dvenat{
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+    color:ghostwhite;
+}
+.trinat{
+    display: flex;
+    justify-content: flex-start;
+    color:olive;
+}
+.chetirnat{
+    display: flex;
+    justify-content: flex-end;
+    color:lightblue;
+}
+.petnat{
+    display: flex;
+    justify-content: center;
+    color:thistle;
+}
+.chestna{
+    display: flex;
+    justify-content: space-between;
+    color:azure;
+}
+.semnat{
+    display: flex;
+    justify-content: space-around;
+    color:darkred;
+}
+.vosemnat{
+    display: flex;
+    justify-content: space-evenly;
+    color: darkcyan;
+}
+.devyatnat{
+    display: flex;
+    align-items: stretch;
+    color: firebrick;
+}
+.dvatsat{
+    display: flex;
+    align-items: flex-end;
+    color:hotpink;
+}
+.dvatsatodin{
+    display: flex;
+    align-content: stretch;
+    color:forestgreen;
+}
+.dvatsatdva{
+    display: flex;
+    align-content: space-between;
+    color: yellowgreen;
+}
+.dvatsattri{
+    display: flex;
+    align-content: space-around;
+    color: pink;
+}
+.dvatsatchetire{
+    display: flex;
+    align-content: space-evenly;
+    color: blue;
+}
